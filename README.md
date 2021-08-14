@@ -4,7 +4,7 @@
 - MySql
 
 
-###Set up:
+### Set up:
 > composer install
 
 ***Make a copy of .env.example and name it .env and edit with your db credentials.***
@@ -13,12 +13,12 @@
 
 > php artisan serve
 
-###Testing:
+### Testing:
 > php artisan test
 
-###API Endpoints
+### API Endpoints
 
-####Create order (POST):
+#### Create order (POST):
 > 127.0.0.1:8000/api/orders/
 
 In the Request body, eg:
@@ -30,9 +30,9 @@ In the Request body, eg:
 
 ```
 
-####List Orders (GET):
+#### List Orders (GET):
 > 127.0.0.1:8000/api/orders/
 
 
-###Note:
+### Note:
 - Data model (data_model.png)
